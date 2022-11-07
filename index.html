@@ -83,7 +83,16 @@
                 </div>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+            <section style="padding:40px">
+                <h1>How javaScript works?</h1>
+                <p>JavaScript is an interpreted language.Its use some engine to run in browser like Google v8,Spider monkey depeneds on browser.JavaScript code is executed in several steps.Firstly our source code is passed using parser where syntax error checked.If there got syntax error then it will throw an error.And if there is no syntax error then a data structure created which name is  Abstract Syntax tree .And final step is convert this code into machine code which is understandable to computer.
+                <h1>How Events loop works?</h1>
+                <p>Normal function is executed by call stack.In case it is an asynchronous function then call stack send it to web Api and call stack works its own.if there is any timer set to Asynchronous function then it will wait at web api until timer end.After ending timer web API send asynchronous function to callBack queue.And finally if call stack has been free then event loop brings that asynchronous function and send it to call stack.After this few step asynchronous funcion is executed</p>
+               <h1>Diffence between LocalStorage vs SessionStorage</h1>
+               <p>If Data is stored in LocalStorage then it will use all time untill it is delete where session storage data has time limitaion.localStorage data can be access if browser is closed but session storage data will be deleted after browser closed.localStorage data can be accesse any time.session storage data cant be access after shut down pc.session stoage is created to store data for few times where localStorage is create to store data in long time</p>
+            </section>
+        </footer>
 
         <!-- add javascript  file  -->
         <script src="./js/app.js"></script>
